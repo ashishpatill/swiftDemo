@@ -13,6 +13,7 @@
 		59E73BC41A79FD9D00AC96CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E73BC31A79FD9D00AC96CA /* Images.xcassets */; };
 		59E73BC71A79FD9D00AC96CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59E73BC51A79FD9D00AC96CA /* LaunchScreen.xib */; };
 		59E73BD31A79FD9D00AC96CA /* swiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E73BD21A79FD9D00AC96CA /* swiftDemoTests.swift */; };
+		59E73BDD1A79FE3300AC96CA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E73BDC1A79FE3300AC96CA /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		59E73BCC1A79FD9D00AC96CA /* swiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E73BD11A79FD9D00AC96CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59E73BD21A79FD9D00AC96CA /* swiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftDemoTests.swift; sourceTree = "<group>"; };
+		59E73BDC1A79FE3300AC96CA /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				59E73BBC1A79FD9D00AC96CA /* AppDelegate.swift */,
+				59E73BDC1A79FE3300AC96CA /* Contact.swift */,
 				59E73BBE1A79FD9D00AC96CA /* ViewController.swift */,
 				59E73BC01A79FD9D00AC96CA /* Main.storyboard */,
 				59E73BC31A79FD9D00AC96CA /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E73BDD1A79FE3300AC96CA /* Contact.swift in Sources */,
 				59E73BBF1A79FD9D00AC96CA /* ViewController.swift in Sources */,
 				59E73BBD1A79FD9D00AC96CA /* AppDelegate.swift in Sources */,
 			);
@@ -339,6 +343,7 @@
 				INFOPLIST_FILE = swiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,6 +354,7 @@
 				INFOPLIST_FILE = swiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
